@@ -16,7 +16,7 @@ pipeline {
 
                 stage('Integration tests'){
                     when {
-                        espression { return params.RUN_INTEGRATION_TESTS }
+                        expression { return params.RUN_INTEGRATION_TESTS }
                     }
 
                     steps{
